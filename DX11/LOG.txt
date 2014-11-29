@@ -1,0 +1,268 @@
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : EffectResource.cpp
+Line : 49
+Error: 
+Comment: Effect is not created
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : EffectResource.cpp
+Line : 49
+Error: 
+Comment: Effect is not created
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : EffectResource.cpp
+Line : 49
+Error: 
+Comment: Effect is not created
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : EffectResource.cpp
+Line : 49
+Error: 
+Comment: Effect is not created
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : EffectResource.cpp
+Line : 49
+Error: 
+Comment: Effect is not created
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 53
+Error: 
+Comment: Cannot create buffer
+File : EffectResource.cpp
+Line : 49
+Error: 
+Comment: Effect is not created
+File : EffectResource.cpp
+Line : 49
+Error: 
+Comment: Effect is not created
+File : EffectResource.cpp
+Line : 49
+Error: 
+Comment: Effect is not created
+File : ResourceBuffer.cpp
+Line : 83
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 83
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 83
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 83
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 83
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 83
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 83
+Error: 
+Comment: Cannot create buffer
+File : ResourceBuffer.cpp
+Line : 83
+Error: 
+Comment: Cannot create buffer
+File : EffectFactory.cpp
+Line : 45
+Error: 
+Comment: Effect file not found
+File : EffectFactory.cpp
+Line : 49
+Error: 
+Comment: Effect file not found
+File : e:\workspace\projects\osirisgameengine\osirisgameengine\referencecounter.h
+Line : 50
+Error: 
+Comment: Incorrect value of count references
+File : e:\workspace\projects\osirisgameengine\osirisgameengine\referencecounter.h
+Line : 50
+Error: 
+Comment: Incorrect value of count references
+File : e:\workspace\projects\osirisgameengine\osirisgameengine\referencecounter.h
+Line : 50
+Error: 
+Comment: Incorrect value of count references
+File : e:\workspace\projects\osirisgameengine\osirisgameengine\referencecounter.h
+Line : 50
+Error: 
+Comment: Incorrect value of count references
+File : d:\workspace\projects\osirisgameengine\core\colladaloader.cpp
+Line : 30
+Error: 
+Comment: Invalid COLLADA file
+File : d:\workspace\projects\osirisgameengine\core\colladaloader.cpp
+Line : 30
+Error: 
+Comment: Invalid COLLADA file
+File : d:\workspace\projects\osirisgameengine\core\colladaloader.cpp
+Line : 30
+Error: 
+Comment: Invalid COLLADA file
+File : d:\workspace\projects\osirisgameengine\core\colladaloader.cpp
+Line : 30
+Error: 
+Comment: Invalid COLLADA file
+File : d:\workspace\projects\osirisgameengine\core\effectfactory.cpp
+Line : 47
+Error: 
+Comment: Effect file not found

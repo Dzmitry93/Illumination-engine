@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FileSystem">
+      <UniqueIdentifier>{4ed3815b-630c-447c-8f76-b5fcafe7b703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem\XML">
+      <UniqueIdentifier>{a1b7cbfb-3bbe-4dbc-84ac-244f93bdd314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem\COLLADA">
+      <UniqueIdentifier>{a9507c53-e1c0-4c49-aaf3-04a077338b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{f7fb18ba-e2de-4c0e-9b7e-91a0bd84e771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{d3fc4a0d-3171-419a-896c-9a2cc98419fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{53bebabc-5a72-4105-9636-ead4658e0a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{e61291f2-c725-4b63-8e6b-526175166a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Font">
+      <UniqueIdentifier>{f7c5a0d0-6465-434c-9a10-ab768050c019}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Color">
+      <UniqueIdentifier>{d313a64c-c535-4da2-983a-ab1beeef1275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{b212e354-72cd-47e5-87af-0b228671c258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{d402cf38-a308-42c6-a86e-b4b661a472b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collections">
+      <UniqueIdentifier>{826b917b-71d3-41f3-95a9-81a11f314b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collections\Kdtree">
+      <UniqueIdentifier>{b96f1d40-a63e-488b-b41d-238753e1a58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collections\Octree">
+      <UniqueIdentifier>{b516b750-c7b6-4b10-9cd5-32192c604339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collections\Iterator">
+      <UniqueIdentifier>{17b7a9e2-7a14-47ae-88f5-5965e06b7162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{3dad6195-8a91-4e1c-af46-0c2ae4bf3030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem\ImageReader">
+      <UniqueIdentifier>{352799f4-f720-4a03-a3d2-86fcadd18176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collections\BVH">
+      <UniqueIdentifier>{238b7dfd-6b3c-41cd-9105-d4c89f1091e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{d4b5f726-0f22-469d-a410-e5b12c415a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Camera">
+      <UniqueIdentifier>{bb12cd4d-e708-4004-939a-184b1b35123c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Light">
+      <UniqueIdentifier>{e0ae5446-0108-4952-bd44-6fb5dd684071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SceneNode">
+      <UniqueIdentifier>{d06a926a-fdaa-4c2c-9a22-587fc6655cb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphicsApplication.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardController.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BitFlags.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshFactory.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseController.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceItem.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceCounter.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="pugiconfig.hpp">
+      <Filter>FileSystem\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml.hpp">
+      <Filter>FileSystem\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLADAStructures.h">
+      <Filter>FileSystem\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSMeter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Render\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FontLibraryFactory.h">
+      <Filter>Render\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsStringFactory.h">
+      <Filter>Render\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="FontLibrary.h">
+      <Filter>Render\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="IntrusivePtr.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoPtr.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="IterableMesh.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBodyFactory.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="HashUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="COLLADAReader.h">
+      <Filter>FileSystem\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneLoaderAdapter.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIDUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialFactory.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTree.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneFactory.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLight.h">
+      <Filter>Scene\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Scene\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="LightFactory.h">
+      <Filter>Scene\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Scene\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Spotlight.h">
+      <Filter>Scene\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Scene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>Scene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFactory.h">
+      <Filter>Scene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneCameraNode.h">
+      <Filter>Scene\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneIterableMeshNode.h">
+      <Filter>Scene\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLightNode.h">
+      <Filter>Scene\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneModelNode.h">
+      <Filter>Scene\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Scene\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNodeFactory.h">
+      <Filter>Scene\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectNode.h">
+      <Filter>Scene\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTransformNode.h">
+      <Filter>Scene\SceneNode</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingManager.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorUtil.h">
+      <Filter>Render\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferFactory.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMesh.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureFactory.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsApplication.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingStructures.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="ARGBColor.h">
+      <Filter>Render\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="ISystemManager.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DX11Renderer\IPipelineProcessor.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Comparator.h">
+      <Filter>Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="KdTree.h">
+      <Filter>Collections\Kdtree</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleKdtree.h">
+      <Filter>Collections\Kdtree</Filter>
+    </ClInclude>
+    <ClInclude Include="IntervalTree.h">
+      <Filter>Collections\Kdtree</Filter>
+    </ClInclude>
+    <ClInclude Include="BST.h">
+      <Filter>Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="KdtreeFactory.h">
+      <Filter>Collections\Kdtree</Filter>
+    </ClInclude>
+    <ClInclude Include="3DSMaxCOLLADAAdapter.h">
+      <Filter>FileSystem\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="Format.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="StackAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="IPoolAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayIterator.h">
+      <Filter>Collections\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstIterator.h">
+      <Filter>Collections\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Collections\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstArrayIterator.h">
+      <Filter>Collections\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainChunk.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Collections\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="OctreeFactory.h">
+      <Filter>Collections\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="BMPReader.h">
+      <Filter>FileSystem\ImageReader</Filter>
+    </ClInclude>
+    <ClInclude Include="IImageReader.h">
+      <Filter>FileSystem\ImageReader</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSReader.h">
+      <Filter>FileSystem\ImageReader</Filter>
+    </ClInclude>
+    <ClInclude Include="ICameraController.h">
+      <Filter>Scene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportStructures.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DampedLight.h">
+      <Filter>Scene\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBodyUtils.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformUtils.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BVH.h">
+      <Filter>Collections\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="BVHFactory.h">
+      <Filter>Collections\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="IComparable.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="RBTree.h">
+      <Filter>Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainFactory.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainQuadtree.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="COLLADAREader.cpp">
+      <Filter>FileSystem\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>FileSystem\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="IterableMesh.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshFactory.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBodyFactory.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTree.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneFactory.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FontLibraryFactory.cpp">
+      <Filter>Render\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Render\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsStringFactory.cpp">
+      <Filter>Render\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>Scene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFactory.cpp">
+      <Filter>Scene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialFactory.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureFactory.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsApplication.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="KdtreeFactory.cpp">
+      <Filter>Collections\Kdtree</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleKdtree.cpp">
+      <Filter>Collections\Kdtree</Filter>
+    </ClCompile>
+    <ClCompile Include="3DSMaxCOLLADAAdapter.cpp">
+      <Filter>FileSystem\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="Format.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="OctreeFactory.cpp">
+      <Filter>Collections\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Collections\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="BMPReader.cpp">
+      <Filter>FileSystem\ImageReader</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSReader.cpp">
+      <Filter>FileSystem\ImageReader</Filter>
+    </ClCompile>
+    <ClCompile Include="LightFactory.cpp">
+      <Filter>Scene\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBodyUtils.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformUtils.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Comparator.cpp">
+      <Filter>Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="BVH.cpp">
+      <Filter>Collections\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainFactory.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainQuadtree.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

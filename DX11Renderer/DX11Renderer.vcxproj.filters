@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="DX11Renderer.h" />
+    <ClInclude Include="DX11BufferFactory.h">
+      <Filter>Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11ResourceBuffer.h">
+      <Filter>Resource\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11RenderableMesh.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Format.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11RenderResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11MeshFactory.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Texture2D.h">
+      <Filter>Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11TextureFactory.h">
+      <Filter>Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11EffectFactory.h">
+      <Filter>Resource\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11EffectResource.h">
+      <Filter>Resource\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11ShaderManager.h">
+      <Filter>Resource\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11ShaderVariableHelper.h">
+      <Filter>Resource\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11PipelineDescriptor.h">
+      <Filter>Resource\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11SamplerFactory.h">
+      <Filter>Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11ComputeFactory.h">
+      <Filter>Resource\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11ComputeResource.h">
+      <Filter>Resource\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11RasterizerProcessor.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11RaytracingProcessor.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11AbstractPipelineProcessor.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11PipelineProcessorConfigurator.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11BlendFactory.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX11BufferFactory.cpp">
+      <Filter>Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11ResourceBuffer.cpp">
+      <Filter>Resource\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Renderer.cpp" />
+    <ClCompile Include="DX11MeshFactory.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Texture2D.cpp">
+      <Filter>Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11TextureFactory.cpp">
+      <Filter>Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11EffectFactory.cpp">
+      <Filter>Resource\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11ShaderVariableHelper.cpp">
+      <Filter>Resource\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11ShaderManager.cpp">
+      <Filter>Resource\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11SamplerFactory.cpp">
+      <Filter>Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11Format.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11ComputeFactory.cpp">
+      <Filter>Resource\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11RasterizerProcessor.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11RaytracingProcessor.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11PipelineProcessorConfigurator.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11BlendFactory.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{d6718767-de81-4882-8f8f-7105d8bcbbfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Buffer">
+      <UniqueIdentifier>{7bd2d938-fd70-4ff5-93d9-8d2dbd739419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Texture">
+      <UniqueIdentifier>{1812c83a-6e46-468c-bb5d-2b5b71695a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Effects">
+      <UniqueIdentifier>{af7e76fd-70ea-467c-a357-ca53bdc92f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline">
+      <UniqueIdentifier>{3aa48d11-e0f4-48b2-a36a-b8caf0ae08e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
